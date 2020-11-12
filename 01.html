@@ -21,6 +21,21 @@
             width: 100vw;
           }
 	
+	 ul.breadcrumb {
+                     padding: 36px 62px;
+                     list-style: none;
+                     background-color:mistyrose;
+                     }
+
+                    ul.breadcrumb li {display: inline;}
+
+                    ul.breadcrumb li+li:before {
+                    padding: 36px;
+                    color:#ffffcc;
+                    content: "/\00a0";
+                    }
+
+                    ul.breadcrumb li a {color:#99ccff;}		
 			
 	
 	
@@ -37,6 +52,16 @@
 
 	
 	<body>
+		
+		<ul class="breadcrumb">
+            <li><a href="index.html">begin at the chest</a></li>
+             <li><a href="01.html">then to the plates</a></li>
+              <li><a href="02.html">mri filaments</a></li>
+               <li><a href="03.html">and metal traces</a></li>
+            </ul>
+		
+		
+		
 	        <p>
 		 another page
               
